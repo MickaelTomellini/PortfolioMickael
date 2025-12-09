@@ -1,8 +1,10 @@
 <section class="flex flex-col items-center text-center px-6 gap-6 py-20">
 
   <h1 class="text-7xl font-bold leading-tight">
-    Hey, je suis <span class="cyber-chrome">Mickael.</span>
-  </h1>
+  Hey,<span class="block sm:hidden"></span>
+  <span class="sm:inline"> je suis <span class="cyber-chrome">Mickael.</span></span>
+</h1>
+
 
   <h2 class="text-3xl text-gray-200 font-semibold">
     Développeur web Full Stack
