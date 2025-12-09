@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+html, body {
+  @apply bg-black text-white min-h-screen;
+}
+
+.cyber-chrome {
+  position: relative;
+  font-weight: 900;
+  font-size: 1em;
+  display: inline-block;
+  color: transparent;
+
+  /* Dégradé parfaitement lisse et sans cassure */
+  background: linear-gradient(
+    90deg,
+
+    /* montée colorée */
+    #00c6ff 0%,
+    #3aaefc 10%,
+    #6c90ff 20%,
+    #9372ff 32%,
+    #b400ff 45%,
+    #ff4bdc 58%,
+    #ff7e47 72%,
+    #ffb347 84%,
+    #ffe066 92%,
+#ffdba0 94%,     /* Intermédiaire jaune → bleu pastel */
+    /* retour progressif vers bleu = anti-cassure */
+    #9cdffc 96%,
+    #4bc7ff 98%,
+    #00c6ff 100%
+  );
+
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  /* Glow doux */
+  filter: drop-shadow(0 0 8px rgba(0, 140, 255, 0.28))
+          drop-shadow(0 0 14px rgba(180, 0, 255, 0.20));
+
+  /* Animation rapide */
+  animation: cyberShift 4s ease-in-out infinite alternate;
+}
+
+/* Aller-retour rapide & fluide */
+@keyframes cyberShift {
+  0%   { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
