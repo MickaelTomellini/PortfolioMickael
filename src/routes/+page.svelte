@@ -10,8 +10,10 @@
     Développeur web Full Stack
   </h2>
 
-  <p class="text-lg text-gray-400 max-w-2xl leading-relaxed">
-   Bienvenue sur mon portfolio, un espace dédié à mes projets et à mon parcours
+  <p class="text-lg max-w-2xl leading-relaxed">
+   <span class="cyber-chrome">
+   Je suis à la recherche d’une alternance pour intégrer une formation de Concepteur Développeur d’Applications Devops de Bac+4
+   </span>
   </p>
 
   <div class="flex gap-4 pt-2">

@@ -30,7 +30,7 @@ export const projects = [
     slug: "herosleague",
     description:
       "Plateforme e-commerce fictive permettant aux utilisateurs de découvrir et de réserver divers services réalisés par des super-héros.",
-    technologies: ["Javascript", "CSS"],
+    technologies: ["HTML", "CSS"],
     image: "/images/hero.png"
   },
 
@@ -63,7 +63,7 @@ export const projects = [
     slug: "villavoyage",
     description:
       "Site web d'agence de voyage spécialisée dans la location de villas haut de gamme dans diverses destinations. (site en cours de construction)",
-    technologies: ["Svelte","TailwindCSS","Sequelize","PostgreSQL"],
+    technologies: ["HTML","CSS"],
     image: "/images/villa.png"
   },
 
