@@ -33,9 +33,9 @@
   <nav class="max-w-5xl mx-auto flex items-center justify-between py-4 px-4">
 
     <!-- Logo -->
-    <a href="/" class="text-xl font-semibold">
+    <a href="/" class="text-xl font-semibold cyber-chrome">
       Mickael.
-      <span class="text-sm font-normal opacity-70 ml-1">Développeur web</span>
+      <span class="text-sm text-white font-normal opacity-70 ml-1">Développeur web</span>
     </a>
 
     <!-- Burger button (mobile) -->
@@ -55,6 +55,7 @@
       <a href="/projets" class="hover:text-gray-300">Projets</a>
       <a href="/about" class="hover:text-gray-300">À propos</a>
       <a href="/contact" class="hover:text-gray-300">Contact</a>
+      <a href="/cv" class="hover:text-gray-300">Mon CV</a>
     </div>
 
   </nav>

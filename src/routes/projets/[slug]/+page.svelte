@@ -14,8 +14,20 @@
     <img 
   src={project.image} 
   alt={project.title} 
-  class="w-full rounded-xl mb-8 shadow-lg"
-/>
+  class="w-full rounded-xl mb-8 shadow-lg"/>
+
+      <div class="flex gap-4 mb-8">
+  <a href={project.site} 
+     class="px-6 py-3 bg-black text-white font-semibold rounded-xl shadow-md border-2
+            hover:bg-white hover:text-black hover:shadow-lg transition duration-300 ease-in-out">
+    VOIR LE PROJET
+  </a>
+  <a href={project.github} 
+     class="px-6 py-3 bg-black text-white font-semibold rounded-xl shadow-md border-2
+            hover:bg-white hover:text-black hover:shadow-lg transition duration-300 ease-in-out">
+    GITHUB
+  </a>
+</div>
 
 
     <p class="text-gray-300 leading-relaxed mb-10">

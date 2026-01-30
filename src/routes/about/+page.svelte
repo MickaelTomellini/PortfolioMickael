@@ -54,7 +54,7 @@ const skills = [
   <p class="text-gray-300 leading-relaxed text-lg text-justify">
     Cette curiosité est rapidement devenue un véritable moteur, celui qui me pousse encore aujourd’hui
     à apprendre, tester, optimiser et aller toujours un peu plus loin.  
-    À part le développement, je suis également un vrai passionné de musique et de sport (obligé car bouger c’est la santé !). Et quand je veux déconnecter, rien de mieux qu’un bon jeu vidéo.
+    À part le développement, je suis également un vrai passionné de musique et quand je veux déconnecter, rien de mieux qu’un bon jeu vidéo ou une séance de sport.
   </p>
 
   <p class="text-gray-400 leading-relaxed text-justify">
